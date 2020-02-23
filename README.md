@@ -38,7 +38,7 @@ Just remember **CALL THIS** before calling `PatternManager.generate(key, args)`!
 
 ## PatternManager.generate(key, args)
 
-Use this method to generate a sentence.
+Use this method to generate a phrase or sentence(generally speaking the string).
 
 - key: the pattern set key
 - args: an object whitch determinate the replacement of `name` tokens
@@ -117,7 +117,7 @@ These are results. Each calling of `pm.generate('item', env)` only returns ONE r
 
 ```
 mystery cellphone made of steel from France
-the steel that used to defeat Dalek in Japan
+the steel that Doctor used to defeat Dalek in Japan
 extraordinary cellphone made of steel from Canada
 horrible flower made of stone from Japan
 mystery flower made of iron from Canada
