@@ -1,6 +1,6 @@
-# Pattern
+# Rand Text
 
-Use pattern like:
+Use pattern below to generate a random phrase or sentence.
 
 ```
 # pattern_set_key_1
@@ -17,6 +17,10 @@ The pattern is a series of tokens. Tokens can be raw string, key token or name t
 - `name` looks like `$name$`. It will be replaced with the `args` given while calling the method `PatternManager.generate(key, args)`
 
 # API
+
+## PatternManager
+
+This is the main part of this module.
 
 ## PatternManager.compile(data)
 
